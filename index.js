@@ -83,7 +83,6 @@ function getBoardActivity(boardId){
 
 			var eventType = boardActions[ix].type;
 			e.emit(eventType, boardActions[ix], boardId);
-			e.emit('actions', eventType, boardActions[ix], boardId);
 		}
 
 		config.minId = Math.max(config.minId, actionId);
