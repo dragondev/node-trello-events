@@ -69,7 +69,7 @@ function getBoardActivity(boardId){
 			return e.emit('trelloError', err);
 		}
 		if (!Array.isArray(resp)) {
-			throw new Error(resp);
+			return false
 		}
 		var boardActions = resp.reverse();
 		var actionId;
