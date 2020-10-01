@@ -37,3 +37,6 @@ For example, to subscribe to `updateCard` events:
 ```js
 trello.on('updateCard', function(event, boardId){...});
 ```
+
+## Fork 
+This is a fork modified to suit my needs on my future projects
