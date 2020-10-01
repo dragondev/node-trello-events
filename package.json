@@ -1,13 +1,11 @@
 {
   "name": "trello-events",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Event based polling of trello board activity",
   "main": "index.js",
   "keywords": [
     "trello",
-    "events",
-    "api",
-    "history"
+    "events"
   ],
   "author": "Adam Tuttle",
   "license": "MIT",
